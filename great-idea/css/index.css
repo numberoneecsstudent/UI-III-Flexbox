@@ -110,32 +110,36 @@ header .logo
 
 /* cta */
 
-.cta .cta-text {
+.cta {
   display: flex;
-  font-size: 77px;
-  margin-top: 120px;
+  margin-top: 72px;
+  justify-content: flex-end;
+}
+
+.cta .cta-text {
+  font-size: 72px;
   text-align: center;
-  padding: 0px 75px;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 82px 0 0;
 }
 
 .cta .cta-text button {
+  border: 1px double black;
+  font-size: 16px;
   background: white;
-  vertical-align: top;
-  margin-top: 6px;
-  padding: 8px 44px;
-  font-size: 17px;
-  border: 1px solid black;
+  width: 170px;
+  height: 32px;
+  margin-top: 10px;
   cursor: pointer;
 }
 
 .cta .cta-text button:hover {
   background: black;
   color: white;
-}
-
-.cta img {
-  display: inline-block;
-  margin-top: 69px;
 }
 
 .main-content {
@@ -227,8 +231,16 @@ footer {
   justify-content: space between;
   width: 100%
 }
-
 .top-content
+{
+  margin: 20px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space between;
+  width: 100%
+}
+
+.top-content1
 {
   border-bottom: 2px solid black;
   margin: 20px 0;
